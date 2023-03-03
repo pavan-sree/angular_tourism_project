@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="row">
+  <div class="card" style="width: 15rem; margin: 20px; width: 320px;"*ngFor="let item of collection" >
+    <img src="{{item.img}}" class="card-img-top" alt="..." >
+    <p class="name">{{item.name}}</p>
+    <div class="card-body">
+      <h5 class="text-center">{{item.title}}</h5>
+      <div type="button" id="mibtn" class="btn btn-primary" (click)="goTo(item.name)">more info</div>
+     
+    </div>
+  </div>
+</div>
+  </div>
+</div>

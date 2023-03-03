@@ -1,0 +1,43 @@
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  max-height: 500x;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+
+}
+.column{
+  display: flex;
+  justify-content: space-evenly;
+}
+.name{
+  text-align: center;
+  font-family:cursive;
+  color:aliceblue
+}
+.card-img-top{
+  width: 320px;
+  margin-left: -12.5px;
+  margin-top: -10px;
+  height: 205px;
+  border: 20px;
+  border-radius: 20px;
+}
+.container{
+  align-self: auto;
+}
+.card{
+  backdrop-filter: blur(5px);
+  color:aliceblue;
+  background-color: rgb(38, 36, 36);
+}
+#mibtn{
+  display:block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.text-center{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

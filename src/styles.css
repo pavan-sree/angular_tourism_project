@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  backdrop-filter: blur(5px);
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e4/Alappuzha_Boat_Beauty_W.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
